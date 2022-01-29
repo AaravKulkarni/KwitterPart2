@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <title>Kwitter</title>
+        <link rel="stylesheet" href="kwitter.css" type="text/css">
+        <script src="kwitterroom.js"></script>
+    </head>
+    <button id="logoutbtn" class="btn btn-danger" onclick="LogOut()"> Log Out </button>
+    <br>
+    <center>
+        <img src="kwitter logo.png">
+        <br>
+        <h2 id="username"> </h2>
+        <br>
+        <input type="text" id="roomname" class="form-control" placeholder="#Room Name">
+        <br>
+        <button onclick="AddRoom()" class="btn btn-primary"> Add Room </button>
+        <br>
+        <h1 id="allroomnames"> </h1>
+    </center>
+</html>
